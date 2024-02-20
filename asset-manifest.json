@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dasar0410.github.io/static/css/main.f855e6bc.css",
+    "main.js": "/dasar0410.github.io/static/js/main.ee8e0d00.js",
+    "static/js/453.410bb78b.chunk.js": "/dasar0410.github.io/static/js/453.410bb78b.chunk.js",
+    "static/media/logo.svg": "/dasar0410.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/dasar0410.github.io/index.html",
+    "main.f855e6bc.css.map": "/dasar0410.github.io/static/css/main.f855e6bc.css.map",
+    "main.ee8e0d00.js.map": "/dasar0410.github.io/static/js/main.ee8e0d00.js.map",
+    "453.410bb78b.chunk.js.map": "/dasar0410.github.io/static/js/453.410bb78b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.ee8e0d00.js"
+  ]
+}
