@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.js": "/dasar0410.github.io/static/js/main.a44e2ef5.js",
+    "main.css": "/dasar0410.github.io/static/css/main.95c87c6c.css",
+    "main.js": "/dasar0410.github.io/static/js/main.eddb04da.js",
+    "static/media/logo.png": "/dasar0410.github.io/static/media/logo.d548ca1961cb367fa1ad.png",
     "index.html": "/dasar0410.github.io/index.html",
-    "main.a44e2ef5.js.map": "/dasar0410.github.io/static/js/main.a44e2ef5.js.map"
+    "main.95c87c6c.css.map": "/dasar0410.github.io/static/css/main.95c87c6c.css.map",
+    "main.eddb04da.js.map": "/dasar0410.github.io/static/js/main.eddb04da.js.map"
   },
   "entrypoints": [
-    "static/js/main.a44e2ef5.js"
+    "static/css/main.95c87c6c.css",
+    "static/js/main.eddb04da.js"
   ]
 }
