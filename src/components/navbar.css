@@ -1,0 +1,16 @@
+.navbar {
+    height: 5rem;
+    width: 100vW;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.logo{
+    width: 15rem;
+}
