@@ -1,11 +1,11 @@
 .navbar {
     height: 5rem;
     width: 100vW;
-    max-width: 75rem;
-    margin: 0 auto;
+    max-width: 100rem;
+    margin: auto;
     padding: 1rem 2rem;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: space-between;
     position: sticky;
     top: 0;
@@ -13,12 +13,18 @@
 }
 
 .logo{
-    object-fit: cover;
+    object-fit:cover;
     height: 3rem;
+
+}
+
+.desktopMenu {
+    display: flex;
+    align-items: center;
 }
 
 .desktopMenuListItem{
-    margin: 1rem;
+    margin: 0 1.75rem;
     cursor: pointer;
 }
 

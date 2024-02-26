@@ -8,9 +8,8 @@
     position: absolute;
     top: 20rem;
     z-index: -1;
-    right: 0;
     object-fit: cover;
-    height: 50vh;
+    height: 100vh;
 }
 
 .introContent{
