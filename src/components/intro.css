@@ -30,8 +30,13 @@
     font-weight: 100;
 }
 
+.work{
+    font-size: 3rem;
+    font-weight: 100;
+}
+
 .introName{
-    color: yellow;
+    color: #FFB633;
 }
 
 .introPara{
