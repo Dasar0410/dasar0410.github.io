@@ -8,8 +8,7 @@ const Navbar = () => {
     return (
         <nav className="navbar">
         <span className="S">S.</span>
-            {//<img src={logo} alt="Logo" className="logo"/>
-            }<div className="desktopMenu">
+            <div className="desktopMenu">
                 <Link className="desktopMenuListItem">Home</Link>
                 <Link className="desktopMenuListItem">About</Link>
                 <Link className="desktopMenuListItem">Portfolio</Link>
