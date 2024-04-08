@@ -6,7 +6,7 @@ import { Link } from 'react-scroll'
 const Navbar = () => {
     return (
         <nav className="navbar">
-        <span className="S">S.</span>
+        <div className="S">S.</div>
             <div className="desktopMenu">
                 <Link className="desktopMenuListItem">Home</Link>
                 <Link className="desktopMenuListItem">About</Link>
