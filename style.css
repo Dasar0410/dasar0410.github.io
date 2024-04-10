@@ -12,3 +12,12 @@ body{
     overflow: hidden;
     overflow-y: scroll;
 }
+
+.cards{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: 40vh;
+}
