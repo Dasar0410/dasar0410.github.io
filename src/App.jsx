@@ -10,13 +10,16 @@ function App() {
     <div className="App">
       <Navbar/>
       <Intro/>
-      <h1>Projects</h1>
-      <div className='cards'>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
+      <div className="Projects-container">
+        <p className="Projects-text">Projects</p>
+        <div className='cards'>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+        </div>
       </div>
+      
     </div>
   );
 }
