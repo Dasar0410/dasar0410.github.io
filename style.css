@@ -13,6 +13,17 @@ body{
     overflow-y: scroll;
 }
 
+.Projects-container{
+    background-color:#100F2E;
+    padding-top: 5vw;
+}
+
+.Projects-text{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
 .cards{
     display: flex;
     flex-direction:row;
@@ -21,3 +32,4 @@ body{
     padding: 2rem;
     height: 40vh;
 }
+
