@@ -1,9 +1,11 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     background: transparent;
+    /*font-size: x-large;*/
 }
 
 body{
@@ -15,7 +17,12 @@ body{
 
 .Projects-container{
     background-color:#100F2E;
-    padding-top: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    border-radius: 2rem;
+
 }
 
 .Projects-text{
@@ -29,7 +36,16 @@ body{
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
-    height: 40vh;
+    padding: 2vw;
+    height: auto;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 992px) {
+    .cards{
+        flex-direction:column;
+        justify-content: flex-start;
+    }
+
 }
 
