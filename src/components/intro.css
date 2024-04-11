@@ -7,7 +7,7 @@
     position: relative; /* Added positioning relative to act as a reference for absolute positioning */
 }
 .portrait{
-    position: absolute;
+    position:absolute;
     right: 0;
     z-index: -1;
     object-fit: cover;
@@ -16,6 +16,7 @@
     border-radius: 50%;
     border-color: #FFB633;
     border-style:double;
+    float: left;
 }
 
 .introContent{
@@ -44,6 +45,6 @@
 }
 
 .introPara{
-font-size: large;
+font-size: 1.5rem;
 font-weight: 100;
 }
