@@ -57,11 +57,29 @@
 }
 
 @media screen and (max-width: 900px) {
-    .desktopMenu {
+    .navbar {
         display: none;
     }
-    
-    .mobileMenu {
-        display: block;
+
+
+    .mob_navbar{
+        height: 5rem;
+        width: 100vW;
+        max-width: 200rem;
+        margin: auto;
+        padding: 1rem 2rem;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 3;
+        background-color: #100F2E;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .mobileMenuBtn {
+        display: none;
     }
 }

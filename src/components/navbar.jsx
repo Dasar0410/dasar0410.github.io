@@ -21,18 +21,21 @@ const Navbar = () => {
             <button className="desktopMenuBtn">
                 <img src={contactImg} alt="Contact_Me" className="desktopMenuImg"></img> Contact me
             </button>
-            <button className="desktopMenuBtn" onClick={toggleMenu}>
-                <ion-icon name="menu"></ion-icon>
-                    </button>
+
         </nav>
 
-
+        <nav className="mob_navbar">
+        <div className="S">S.</div>
         <div className={`mobileMenu ${showMenu ? 'visible' : 'invisible'}`}>
                 <Link className="mobileMenuItem">Home</Link>
                 <Link className="mobileMenuItem">About</Link>
                 <Link className="mobileMenuItem">Portfolio</Link>
                 <Link className="mobileMenuItem">Certificates</Link>
             </div>
+            <button className="mobileMenuBtn " onClick={toggleMenu}>
+                <ion-icon name="menu"></ion-icon>
+                    </button>
+                    </nav>
         </>
         
     )
