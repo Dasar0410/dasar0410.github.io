@@ -82,4 +82,7 @@
     .mobileMenuBtn {
         display: none;
     }
+    .mob_navbar{
+        display: none;
+    }
 }
