@@ -23,19 +23,19 @@ function App() {
           <Card
             imgSrc={emptyImg}
             imgAlt="empty"
-            title="Placeholder"
+            title="Placeholder1"
             description="This is a placeholder for future project"
           />
           <Card
             imgSrc={emptyImg}
             imgAlt="empty"
-            title="Placeholder"
+            title="Placeholder2"
             description="This is a placeholder for future project"
           />
           <Card
             imgSrc={emptyImg}
             imgAlt="empty"
-            title="Placeholder"
+            title="Placeholder3"
             description="This is a placeholder for future project"
           />
         </div>
