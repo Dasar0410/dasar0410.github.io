@@ -35,7 +35,7 @@ body{
     display: flex;
     flex-direction:row;
     justify-content: center;
-    align-items: center;
+    
     padding: 2vw;
     height: auto;
 }
@@ -45,6 +45,7 @@ body{
     .cards{
         flex-direction:column;
         justify-content: flex-start;
+        align-items: center;
     }
 
 }

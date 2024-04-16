@@ -2,6 +2,7 @@
 import Navbar from "./components/navbar";
 import Intro from "./components/intro";
 import Card from "./components/card"
+import emptyImg from './empty.png'
 
 //Legg til denne nettsiden som et prosjekt
 
@@ -13,10 +14,30 @@ function App() {
       <div className="Projects-container">
         <p className="Projects-text">Projects</p>
         <div className='cards'>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
+          <Card
+            imgSrc={emptyImg}
+            imgAlt="empty"
+            title="Sarjomaa"
+            description="My webpage"
+          />
+          <Card
+            imgSrc={emptyImg}
+            imgAlt="empty"
+            title="Placeholder"
+            description="This is a placeholder for future project"
+          />
+          <Card
+            imgSrc={emptyImg}
+            imgAlt="empty"
+            title="Placeholder"
+            description="This is a placeholder for future project"
+          />
+          <Card
+            imgSrc={emptyImg}
+            imgAlt="empty"
+            title="Placeholder"
+            description="This is a placeholder for future project"
+          />
         </div>
       </div>
       

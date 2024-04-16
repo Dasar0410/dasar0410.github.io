@@ -7,11 +7,21 @@
     padding: 1rem;
     margin: 1rem;
     text-align:left;
-    display: inline-block;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack elements vertically */
 }
 
 .card .card-img{
     max-width: 40%;
     height: auto;
-    border-radius: 50%;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+.description{
+    color: whitesmoke;
 }
