@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
-// Define your GitHub username and token directly
-const username = 'Dasar0410';  // Replace with your actual GitHub username
+
+const username = 'Dasar0410';
 
 
 const Github = () => {
