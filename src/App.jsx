@@ -2,7 +2,9 @@
 import Navbar from "./components/navbar";
 import Intro from "./components/intro";
 import Card from "./components/card"
+import GitHubCommits from './components/github';
 import emptyImg from './empty.png'
+
 
 //Legg til denne nettsiden som et prosjekt
 
@@ -38,9 +40,10 @@ function App() {
             title="Placeholder3"
             description="This is a placeholder for future project"
           />
+           
         </div>
       </div>
-      
+      <GitHubCommits username="Dasar0410" />
     </div>
   );
 }
