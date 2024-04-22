@@ -1,9 +1,5 @@
 import React, { useEffect, useState } from 'react';
 
-
-const username = 'Dasar0410';
-
-
 const Github = () => {
   const [commits, setCommits] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -12,20 +8,11 @@ const Github = () => {
   useEffect(() => {
     const fetchCommits = async () => {
       try {
-        const response = await fetch(`https://api.github.com/users/${username}/events`, {
-          headers: {
-            Authorization: `Bearer ${process.env.REACT_APP_GITHUB_TOKEN}`
-          }
-        });
+        const response = await fetch('https://worker-aged-lab-b68e.danielsarjomaa.workers.dev');  // Adjust this URL to your Cloudflare worker's URL
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
-        const data = await response.json();
-        const commitData = data.filter(event => event.type === 'PushEvent')
-                               .map(event => ({
-                                  date: event.created_at,
-                                  count: event.payload.commits.length
-                               }));
+        const commitData = await response.json();
         setCommits(commitData);
       } catch (error) {
         setError(error.message);
@@ -35,7 +22,7 @@ const Github = () => {
     };
 
     fetchCommits();
-  }, []); // Empty dependency array means this effect will only run once after the component mounts
+  }, []);
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
@@ -51,4 +38,5 @@ const Github = () => {
     </div>
   );
 };
+
 export default Github;
