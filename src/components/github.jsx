@@ -1,19 +1,31 @@
 import React, { useEffect, useState } from 'react';
 
 const Github = () => {
-  const [commits, setCommits] = useState([]);
+  const [commitsByDay, setCommitsByDay] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
     const fetchCommits = async () => {
       try {
-        const response = await fetch('https://worker-aged-lab-b68e.danielsarjomaa.workers.dev');  // Adjust this URL to your Cloudflare worker's URL
+        const response = await fetch('https://worker-aged-lab-b68e.danielsarjomaa.workers.dev');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
         const commitData = await response.json();
-        setCommits(commitData);
+
+        // Group commits by date and sum up counts
+        const groupedData = commitData.reduce((acc, commit) => {
+          const date = commit.date.split('T')[0];  // Assuming date is in ISO format and includes time
+          if (!acc[date]) {
+            acc[date] = { date, count: 0 };
+          }
+          acc[date].count += commit.count;
+          return acc;
+        }, {});
+
+        // Convert grouped data object to array
+        setCommitsByDay(Object.values(groupedData));
       } catch (error) {
         setError(error.message);
       } finally {
@@ -30,9 +42,9 @@ const Github = () => {
   return (
     <div>
       <h1>GitHub Commit Data</h1>
-      {commits.map((commit, index) => (
+      {commitsByDay.map(({ date, count }, index) => (
         <div key={index}>
-          Date: {commit.date}, Number of Commits: {commit.count}
+          Date: {date}, Number of Commits: {count}
         </div>
       ))}
     </div>
