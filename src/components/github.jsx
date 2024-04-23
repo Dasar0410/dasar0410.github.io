@@ -44,6 +44,9 @@ const Github = () => {
     fetchCommits();
   }, []);
 
+  const startDate = new Date();
+  startDate.setFullYear(startDate.getFullYear() - 1);
+
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
 
@@ -55,10 +58,10 @@ const Github = () => {
       <HeatMap
         value={commitsByDay}
         weekLabels={['', 'Mon', '', 'Wed', '', 'Fri', '']}
-        startDate={new Date(new Date().getFullYear(), 0, 1)} // Start from the beginning of the current year
+        startDate={startDate} // Start from the beginning of the current year
         style={{ '--rhm-rect': '#b9b9b9' }}
         rectSize={16}
-        width={350}
+        width={990}
         legendRender={(props) => <rect {...props} y={props.y + 10} rx={2} />}
         rectProps={{
           rx: 2
