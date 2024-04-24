@@ -19,7 +19,7 @@
     color: #FFB635;
     cursor: default;
     max-height: 4rem;
-    align-content: center;
+    line-height: 4rem;
 }
 
 .desktopMenu {
@@ -72,6 +72,7 @@
         align-items:center;
         justify-content: space-between;
         position: sticky;
+        
         top: 0;
         z-index: 3;
         background-color: #100F2E;
