@@ -5,10 +5,10 @@ const intro = () => {
   return (
     <section id='intro'>
         <div className='introContent'>
-        <span className='hello'>Hei, Jeg heter</span>
+        <span className='hello'>Hi, I am</span>
         <span className='introText'>Daniel  <span className='introName'> Sarjomaa</span> </span>
         <span className='work'></span>
-        <p className='introPara'>Bachelor i Digital infrastruktur og cybersikkerhet<br/>NTNU Gjøvik</p>
+        <p className='introPara'>Bachelor in Digital Infrastructure and Cybersecurity<br/>NTNU Gjøvik</p>
         <img src={portrait} alt='portrait' className='portrait'></img>
         </div>
        
