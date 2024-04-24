@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import HeatMap from '@uiw/react-heat-map';
+import Tooltip from '@uiw/react-tooltip';
 
 import './github.css' 
 
@@ -45,24 +46,32 @@ const Github = () => {
   }, []);
 
   const startDate = new Date();
+  const endDate = new Date();
+  endDate.setDate(endDate.getDate() - 1)
   startDate.setFullYear(startDate.getFullYear() - 1);
-
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
 
   return (
-    <>
-    
+    <div className='github'>
+    <p className='GithubText'>Commit History</p>
     <div className='gitHeatmap flex justify-center'>
     
       <HeatMap
         value={commitsByDay}
-        weekLabels={['', 'Mon', '', 'Wed', '', 'Fri', '']}
+        weekLabels={['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']}
         startDate={startDate} // Start from the beginning of the current year
-        style={{ '--rhm-rect': '#b9b9b9' }}
+        style={{ color: '#FFB633', '--rhm-rect-active': '' }}
+        endDate={endDate}
         rectSize={16}
         width={990}
-        legendRender={(props) => <rect {...props} y={props.y + 10} rx={2} />}
+        rectRender={(props, data) => {
+        if (!data.count) return <rect {...props} />;
+        return (
+          <Tooltip placement="top" content={`count: ${data.count || 0}`}>
+            <rect {...props} />
+          </Tooltip>
+        );}}
         rectProps={{
           rx: 2
         }}
@@ -77,7 +86,7 @@ const Github = () => {
         }}
       />
     </div>
-    </>
+    </div>
   );
 };
 

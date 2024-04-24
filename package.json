@@ -8,6 +8,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@uiw/react-heat-map": "^2.2.2",
+    "@uiw/react-tooltip": "^4.22.3",
     "css": "^3.0.0",
     "node-fetch": "^3.3.2",
     "react": "^18.2.0",

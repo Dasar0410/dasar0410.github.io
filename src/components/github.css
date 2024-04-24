@@ -1,3 +1,17 @@
+.github{
+    margin: 4rem;
+}
+
 .gitHeatmap{
-margin: 4rem;
+margin: 2rem;
+
+
+
+
+}
+
+.GithubText{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
 }
