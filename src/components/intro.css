@@ -48,3 +48,19 @@
 font-size: 1.5rem;
 font-weight: 100;
 }
+
+@media only screen and (max-width: 992px) {
+    .portrait{
+        opacity: 50%; /* Better solution later */
+        height: 30vh;
+        width: 30vh;
+        margin-right: 5vh;
+    }
+    .introContent{
+        height: 50vh;
+    }
+    #intro{
+        height: 50vh;
+    }
+
+}
