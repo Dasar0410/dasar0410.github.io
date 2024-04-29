@@ -3,7 +3,8 @@ import Navbar from "./components/navbar";
 import Intro from "./components/intro";
 import Card from "./components/card"
 import GitHubCommits from './components/github';
-import emptyImg from './empty.png'
+import About from './components/about';
+import emptyImg from './empty.png';
 
 
 //Legg til denne nettsiden som et prosjekt
@@ -44,6 +45,7 @@ function App() {
         </div>
       </div>
       <GitHubCommits username="Dasar0410" />
+      <About/>
     </div>
   );
 }
