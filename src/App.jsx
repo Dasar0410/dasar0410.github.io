@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Intro/>
-      <div className="Projects-container">
+      <section id="portfolio" className="Projects-container">
         <p className="Projects-text">Projects</p>
         <div className='cards'>
           <Card
@@ -43,7 +43,7 @@ function App() {
           />
            
         </div>
-      </div>
+      </section>
       <GitHubCommits username="Dasar0410" />
       <About/>
     </div>
