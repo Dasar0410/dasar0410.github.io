@@ -1,0 +1,14 @@
+.aboutContainer{
+    text-align: center;
+    width: 40vw;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.aboutTitle{
+    font-size: 3rem;
+}
