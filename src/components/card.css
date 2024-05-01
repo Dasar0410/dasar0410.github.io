@@ -4,13 +4,12 @@
     border: 0px solid   var(--primary);
     background-color: var(--accent);;
     max-width: 20rem;
-    
     padding: 1rem;
     margin: 1rem;
     text-align:left;
     display: flex; /* Use flexbox */
     flex-direction: column; /* Stack elements vertically */
-
+/* Style below is copied from: https://css-tip.com/corner-only-border-image/ */
   --s: 30px; /* the size on the corner */
   --t: 3px;  /* the thickness of the border */
   --g: 0px; /* the gap between the border and image */
