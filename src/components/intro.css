@@ -14,7 +14,7 @@
     height: 40vh;
     width: 40vh;
     border-radius: 50%;
-    border-color: #FFB633;
+    border-color: var(--primary);
     border-style:double;
     float: left;
 }
@@ -41,7 +41,7 @@
 }
 
 .introName{
-    color: #FFB633;
+    color: var(--primary);
 }
 
 .introPara{

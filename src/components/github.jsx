@@ -77,12 +77,12 @@ const Github = () => {
         }}
         panelColors={{
         
-        0: '#100F2E',
+        0: "var(--secondary)",
         2: '#ffdd9f',
         4: '#ffc660',
         10: '#ffc660',
-        20: '#ffb633',
-        30: '#ffb633',
+        20: 'var(--primary)',
+        30: 'var(--primary)',
         }}
       />
     </div>

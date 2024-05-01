@@ -10,13 +10,13 @@
     position: sticky;
     top: 0;
     z-index: 3;
-    background-color: #100F2E;
+    background-color: var(--secondary);
 }
 
 .S{
     font-size: 4rem;
     font-weight: 200;
-    color: #FFB635;
+    color: var(--primary);
     cursor: default;
     max-height: 4rem;
     line-height: 4rem;
@@ -33,9 +33,9 @@
 }
 
 .desktopMenuListItem:hover{
-    color: #FFB633;
+    color: var(--primary);
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid #FFB633;
+    border-bottom: 3px solid var(--primary);
     
 }
 
@@ -47,7 +47,7 @@
 }
 
 .desktopMenuBtn {
-    background: #FFB633;
+    background: var(--primary);
     color: black;
     display: flex;
     align-items: center;

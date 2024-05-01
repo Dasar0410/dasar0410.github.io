@@ -1,14 +1,28 @@
 
 
 .card{
-    border: 1px solid #FFB633;
+    border: 0px solid   var(--primary);
+    background-color: var(--accent);;
     max-width: 20rem;
-    border-radius: 10px;
+    
     padding: 1rem;
     margin: 1rem;
     text-align:left;
     display: flex; /* Use flexbox */
     flex-direction: column; /* Stack elements vertically */
+
+  --s: 30px; /* the size on the corner */
+  --t: 3px;  /* the thickness of the border */
+  --g: 0px; /* the gap between the border and image */
+  
+  padding: calc(var(--g) + var(--t));
+  outline: var(--t) solid var(--primary); /* the color here */
+  outline-offset: calc(-1*var(--t));
+  mask:
+    conic-gradient(at var(--s) var(--s),#0000 75%,#000 0)
+    0 0/calc(100% - var(--s)) calc(100% - var(--s)),
+    linear-gradient(#000 0 0) content-box;
+  transition: .4s;
 }
 
 .card .card-img{
@@ -19,9 +33,13 @@
 .title{
     font-size: 1.5rem;
     font-weight: 500;
+    margin-left: 1rem;
+
 }
 
 
 .description{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
     color: whitesmoke;
 }

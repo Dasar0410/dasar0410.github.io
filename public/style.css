@@ -1,4 +1,15 @@
 
+:root {
+    --background: #0A0919;
+    --primary: #FFB633; 
+    --secondary: #100F2E; 
+    --accent: #0d0c25;
+  }
+ 
+
+  
+
+
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +27,7 @@ body{
 }
 
 .Projects-container{
-    background-color:#100F2E;
+    background-color: var(--secondary);
     padding-top: 2vw;
     padding-bottom: 2vw;
     margin-left: 15vw;
