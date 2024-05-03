@@ -1,7 +1,6 @@
 
 
 .card{
-    border: 0px solid   var(--primary);
     background-color: var(--accent);;
     max-width: 20rem;
     padding: 1rem;

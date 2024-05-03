@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css'
-import portrait from './img/placeholder.jpg'
+import portrait from './img/placeholder.svg'
 const intro = () => {
   return (
     <section id='intro'>
