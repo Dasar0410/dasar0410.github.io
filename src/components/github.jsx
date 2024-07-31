@@ -17,10 +17,13 @@ const Github = () => {
           throw new Error('Network response was not ok');
         }
         const commitData = await response.json();
-
+        console.log('GitHub API response:', commitData); // Log the full response
         // Group commits by date and sum up counts
         const groupedData = commitData.reduce((acc, commit) => {
           const date = commit.date.split('T')[0];  // Assuming date is in ISO format and includes time
+
+          //console.log('Filtered commit data:', groupedData);
+
           if (!acc[date]) {
             acc[date] = 0;
           }
