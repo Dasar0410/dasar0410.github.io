@@ -32,11 +32,24 @@
     cursor: pointer;
 }
 
-.desktopMenuListItem:hover{
-    color: var(--primary);
-    padding-bottom: 0.5rem;
-    border-bottom: 3px solid var(--primary);
-    
+.desktopMenuListItem {
+    position: relative;
+    padding-bottom: 3px;
+}
+
+.desktopMenuListItem::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: var(--primary);
+    transition: width 0.3s ease-in-out;
+}
+
+.desktopMenuListItem:hover::after {
+    width: 100%;
 }
 
 .desktopMenuImg{

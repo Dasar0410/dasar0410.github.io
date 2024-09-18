@@ -1,9 +1,18 @@
+.gridAbout{
+    display: grid;
+    column-gap: 50px;
+    gap: 2rem 2rem;
+}
+
 .aboutContainer{
     text-align: center;
     width: 40vw;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 .about{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 50vh;
@@ -11,4 +20,10 @@
 
 .aboutTitle{
     font-size: 3rem;
+}
+
+
+.techContainer{
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
