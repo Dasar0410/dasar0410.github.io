@@ -18,9 +18,11 @@ const Navbar = () => {
                 <Link activeClass="active" smooth spy to="about" className="desktopMenuListItem">About</Link>
                 <Link activeClass="active" smooth spy to="about" className="desktopMenuListItem">Certificates</Link>
             </div>
-            <button className="desktopMenuBtn">
-                <img src={contactImg} alt="Contact_Me" className="desktopMenuImg"></img> Contact me
-            </button>
+            <a href="mailto:daniel@sarjomaa.no">
+              <button className="desktopMenuBtn">
+                <img src={contactImg} alt="Contact_Me" className="desktopMenuImg" /> Contact me
+              </button>
+            </a>
 
         </nav>
 
