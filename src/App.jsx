@@ -22,13 +22,13 @@ function App() {
             imgSrc={emptyImg}
             imgAlt="empty"
             title="Sarjomaa"
-            description="This portfolio website is made with React and styled with normal CSS and Tailwind. It is intended to showcase my projects and skills"
+            description="This portfolio website is made with React and TailwindCSS and is hosted on Github Pages"
           />
           <Card
             imgSrc={studentweb}
             imgAlt="empty"
             title="StudentWeb Calendar Exporter"
-            description="This is a Chrome extension that exports your calendar from StudentWeb to Google Calendar or any other preferred calendar"
+            description="A Chrome extension that exports your exam dates from StudentWeb to .ics format to easily import them to your calendar"
           />
           <Card
             imgSrc={emptyImg}
