@@ -16,7 +16,7 @@ const Navbar = () => {
         <nav className="navbar">
         <div className="S">S.</div>
             <div className={`desktopMenu ${showMenu ? 'hide' : ''} text-lg`}>
-                <Link activeClass="active" smooth spy to="intro" className="desktopMenuListItem">Home</Link>
+                <Link activeClass="active" smooth spy to="intro" className="desktopMenuListItem ">Home</Link>
                 <Link activeClass="active" smooth spy to="portfolio" className="desktopMenuListItem">Portfolio</Link>
                 <Link activeClass="active" smooth spy to="about" className="desktopMenuListItem">Technologies</Link>
                 <Link activeClass="active" smooth spy to="about" className="desktopMenuListItem">About</Link>

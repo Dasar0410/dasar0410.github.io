@@ -17,7 +17,7 @@ function App() {
       <Navbar/>
       <Intro/>
       <section id="portfolio" className="Projects-container">
-        <p className="Projects-text">Projects</p>
+        <p className="Projects-text large-header">Projects</p>
         <div className='cards'>
           <Card
             imgSrc={emptyImg}

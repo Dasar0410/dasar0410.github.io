@@ -16,41 +16,5 @@ body{
     overflow-y: scroll;
 }
 
-.Projects-container{
-    background-color: var(--secondary);
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    margin-left: 15vw;
-    margin-right: 15vw;
-    border-radius: 2rem;
 
-}
-
-.Projects-text{
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 700;
-}
-
-.cards{
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    
-    padding: 2vw;
-    height: auto;
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 992px) {
-    .cards{
-        flex-direction:column;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    html{
-        font-size: 10px;
-    }
-
-}
 

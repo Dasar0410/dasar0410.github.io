@@ -28,10 +28,6 @@
     justify-content: center;
 }
 
-.hello{
-    font-size: 2rem; 
-    font-weight: 100;
-}
 
 .work{
     font-size: 3rem;
@@ -43,8 +39,6 @@
 }
 
 .introPara{
-font-size: 1.5rem;
-font-weight: 100;
 line-height: 2rem;
 }
 

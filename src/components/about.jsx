@@ -7,7 +7,7 @@ const about = () => {
         <section id='about' className='about'>
         <div className='gridAbout'>
             <div className='aboutContainer'>
-                <h1 className='aboutTitle'>About</h1>
+                <h1 className='large-header'>About</h1>
                 <p>I am pursuing a Master’s in Software Engineering at NTNU, with a Bachelor’s in Digital Infrastructure and Cybersecurity.<br></br> Skilled in JavaScript, CSS, SQL, C++, and Java, with hands-on experience in full-stack web development and cloud infrastructure (logging, monitoring, Active Directory). Current project i am working on is Sarjomaa-Cuisine, a cookbook which has been a passion of mine to create for a long time.</p>
             </div>
             <div className='techContainer'>
