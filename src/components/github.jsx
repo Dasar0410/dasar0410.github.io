@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import HeatMap from '@uiw/react-heat-map';
 import Tooltip from '@uiw/react-tooltip';
 
+import '../globals.css'
 import './github.css' 
 
 const Github = () => {

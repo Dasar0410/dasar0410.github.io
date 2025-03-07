@@ -1,5 +1,6 @@
 import React from 'react'
 import './about.css' 
+import '../globals.css'
 /* Legg til en splittet visning der venstre siden er om meg mens høyre siden er tech stacken jeg bruker og har lært i about div-en */
 const about = () => {
     return (

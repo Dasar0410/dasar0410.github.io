@@ -1,7 +1,10 @@
 import React, { useState } from "react";
-import './navbar.css'
+
 import contactImg from './img/contact.png'
 import { Link } from 'react-scroll'
+
+import './navbar.css'
+import '../globals.css'
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);

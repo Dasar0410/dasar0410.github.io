@@ -1,5 +1,6 @@
 import React from 'react'
 import './card.css' 
+import '../globals.css'
 
 export const card = ({
     imgSrc,
