@@ -15,15 +15,15 @@ const Navbar = () => {
         <>
         <nav className="navbar">
         <div className="S">S.</div>
-            <div className={`desktopMenu ${showMenu ? 'hide' : ''} text-lg`}>
+            <div className={`desktopMenu  ${showMenu ? 'hide' : ''} `}>
                 <Link activeClass="active" smooth spy to="intro" className="desktopMenuListItem ">Home</Link>
-                <Link activeClass="active" smooth spy to="portfolio" className="desktopMenuListItem">Portfolio</Link>
+                <Link activeClass="active" smooth spy to="portfolio" className="desktopMenuListItem ">Portfolio</Link>
                 <Link activeClass="active" smooth spy to="about" className="desktopMenuListItem">Technologies</Link>
                 <Link activeClass="active" smooth spy to="about" className="desktopMenuListItem">About</Link>
             </div>
             <a href="mailto:daniel@sarjomaa.no">
-              <button className="desktopMenuBtn">
-                <img src={contactImg} alt="Contact_Me" className="desktopMenuImg" /> Contact me
+              <button className="desktopMenuBtn bread">
+                <img src={contactImg} alt="Contact_Me" className="desktopMenuImg"/>
               </button>
             </a>
 

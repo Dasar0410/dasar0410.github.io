@@ -11,8 +11,8 @@ export const card = ({
     return (
         <div className='card transition ease-in-out hover:-translate-y-1 hover:scale-110'>
         <img className="card-img" src={imgSrc} alt={imgAlt}></img>
-        <h2 className='title'>{title}</h2>
-        <p className='description'>{description}</p>
+        <h2 className='title large-text'>{title}</h2>
+        <p className='description small-text'>{description}</p>
         </div>
     )
 }

@@ -33,6 +33,13 @@
     font-weight: 200;
 }
 .large-text{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
     font-size: 2rem;
     font-weight: 300;
+}
+
+.bread{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
 }
