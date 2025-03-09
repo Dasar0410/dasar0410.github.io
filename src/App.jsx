@@ -24,24 +24,21 @@ function App() {
             imgAlt="empty"
             title="Sarjomaa"
             description="This portfolio website is made with React and TailwindCSS and is hosted on Github Pages"
+            link="https://github.com/Dasar0410/dasar0410.github.io"
           />
           <Card
             imgSrc={studentweb}
             imgAlt="empty"
             title="StudentWeb Calendar Exporter"
             description="A Chrome extension that exports your exam dates from StudentWeb to .ics format to easily import them to your calendar"
+            link="https://github.com/Dasar0410/Studentweb-kalender"
           />
           <Card
             imgSrc={emptyImg}
             imgAlt="empty"
             title="Sarjomaa-Cuisine (WIP)"
             description="This a food blog intended to remember my favourite recipes and to easily know what to cook"
-          />
-          <Card
-            imgSrc={emptyImg}
-            imgAlt="empty"
-            title="To be continued"
-            description="This is a placeholder for future project"
+            link="https://github.com/Dasar0410/sarjomaa-cuisine-frontend"
           />
            
         </div>
