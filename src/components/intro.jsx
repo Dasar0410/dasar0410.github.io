@@ -1,7 +1,7 @@
 import React from 'react'
 import './intro.css'
 import '../globals.css'
-import portrait from './img/placeholder.svg'
+import portrait from './img/portrait.webp'
 const intro = () => {
   return (
     <section id='intro'>

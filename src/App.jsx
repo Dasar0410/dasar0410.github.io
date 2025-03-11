@@ -6,6 +6,7 @@ import GitHubCommits from './components/github';
 import About from './components/about';
 import emptyImg from './empty.png';
 import studentweb from './studentweb.png';
+import Technologies from "./components/technologies";
 import './app.css'
 
 
@@ -46,6 +47,7 @@ function App() {
       <section className="github-chart">
         <GitHubCommits username="Dasar0410" />
       </section>
+      <Technologies/>
       <About/>
     </div>
   );
