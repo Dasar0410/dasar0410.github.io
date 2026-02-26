@@ -58,7 +58,7 @@ const Github = () => {
 
   return (
     <div className='github'>
-    <p className='small-header'>Commit History</p>
+    <p className='large-header'>Commit History</p>
     <div className='gitHeatmap flex justify-center'>
     
       <HeatMap
