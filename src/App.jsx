@@ -24,8 +24,8 @@ function App() {
         <Card
             imgSrc={cuisineImg}
             imgAlt="empty"
-            title="Sarjomaa Cuisine"
-            description="This is a personal food blog where i share my favorite recipes. The website is built with React, TailwindCSS, Typescript and shadCN and uses Supabase for database and authentication."
+            title="SarjoMat"
+            description="This is a personal food blog where i share my favorite recipes. The website is built with React, TailwindCSS, Typescript, shadcn and uses Supabase as a hosted DB and for auth."
             link="https://sarjomaa.no"
           />
           <Card
