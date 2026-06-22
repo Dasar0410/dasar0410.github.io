@@ -6,6 +6,7 @@ import About from './components/about';
 import cuisineImg from './components/img/sarjomaa_cuisine.png';
 import portfolioImg from './components/img/sarjomaa_portfolio.png';
 import pintrestImg from './components/img/pintrest.png';
+import beachbaneImg from './components/img/beachbane.png';
 import studentweb from './studentweb.png';
 import Technologies from "./components/technologies";
 import './app.css'
@@ -21,6 +22,13 @@ function App() {
       <section id="portfolio" className="Projects-container">
         <p className="Projects-text large-header">Projects</p>
         <div className='cards'>
+        <Card
+            imgSrc={beachbaneImg}
+            imgAlt="beachbane.no homepage"
+            title="Beachbane"
+            description="Beachbane.no is a directory of beach volleyball courts in Norway, covering over 380 courts across 159 cities. Users can browse courts via both map and list views, with data crowdsourced as well as sourced from the Norwegian Volleyball Federation and platforms like Google Maps, then cleaned using AI. The site is built with Next.js and Supabase, and runs on Vercel."
+            link="https://beachbane.no"
+          />
         <Card
             imgSrc={cuisineImg}
             imgAlt="empty"
